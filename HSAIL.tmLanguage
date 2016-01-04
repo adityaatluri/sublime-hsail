@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+    <string>hsail</string>
+	<key>foldingStartMarker</key>
+    <string>/\*\*|\{\s*$</string>
+	<key>foldingStopMarker</key>
+    <string>\*\*/|^\s*\}</string>
+	<key>keyEquivalent</key>
+    <string>^~G</string>
+	<key>name</key>
+    <string>HSAIL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\s*#\s*(define|undef|if|ifdef|ifndef|else|elif|endif|error|pragma|extension|version|line)\b</string>
+			<key>name</key>
+			<string>keyword.directive.preprocessor.hsail</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+    <string>source.hsail</string>
+	<key>uuid</key>
+    <string>D0FD1B52-F137-4FBA-A148-B8A893CD948C</string>
+</dict>
+</plist>
